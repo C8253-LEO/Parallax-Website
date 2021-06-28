@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Lato',sans-serif;
+    line-height: 1.8em;
+    height: 100%;
+}
+.section-img1{
+    background-image: url(./img/Image1.jpg);
+    min-height: 100%;
+}
+.section-img2{
+    background-image: url(./img/Image2.jpg);
+    min-height: 100%;
+}
+.section-img3{
+    background-image: url(./img/Image3.jpg);
+    min-height: 100%;
+}
+.section-img4{
+    background-image: url(./img/yelkenli.jpg);
+    min-height: 100%;
+}
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #F4F4F4;
+    color:#666
+}
+.section-dark{
+    background-color: #282E34;
+    color:#ddd
+}
+.section-img1, .section-img2, .section-img3, .section-img4{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.heading-container{
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform:uppercase ;
+}
+.heading-container_heading2{
+    font-size: 1.7em;
+    font-weight: 400;
+    padding: 20px;
+    color: #fff;
+    background-color: #111;
+}
+.heading-container_heading{
+    font-size: 1.8em;
+    color:#f4f4f4;
+    letter-spacing: 8px;
+    background-color: transparent;
+}
+@media(max-width:760px) {
+    .heading-container__heading {
+        font-size: 1.25em;
+    }
+}
+@media(max-width:568px) {
+    .section-img1, .section-img2, .section-img3, .section-img4 {
+        background-attachment: scroll;
+}
